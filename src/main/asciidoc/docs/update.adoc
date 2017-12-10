@@ -1,0 +1,17 @@
+== Updates
+
+=== Check for Update
+A `POST` request checks for updates.
+
+include::{snippets}/update/check/request-fields.adoc[]
+
+==== Request
+
+include::{snippets}/update/check/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/update/check/http-response.adoc[]
+include::{snippets}/update/check/response-fields.adoc[]
+
+

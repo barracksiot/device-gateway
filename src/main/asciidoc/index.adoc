@@ -1,0 +1,31 @@
+= Device API
+
+The following document describes the Device API of Barracks.
+
+== Before you start
+
+IMPORTANT: In order to use the endpoints listed in this documentation, you'll have to authenticate your requests with a valid API key and prefix each URL with the correct _Base URL_.
+
+=== Authentication
+To authenticate a request:
+
+* Go to your Account page to get your API key
+* Set the _Authorization_ header with your API key to each of your requests
+
+=== Base URL
+If you use the SaaS version of Barracks available on https://app.barracks.io, the _Base URL_ of the Device API is https://app.barracks.io/api/device. +
+If you use an On Premise version of Barracks and you're not sure what your _Base URL_ is, please contact us.
+
+=== Request example
+[source,bash]
+----
+$ curl 'https://app.barracks.io/api/device/update/check' -H 'Accept: application/json' -H 'Authorization:UYGUYGU67576FGUYFY67789uih...'
+----
+
+=== Having difficulties?
+If you don't find the endpoint you are looking for or you encounter any issue with that documentation, please mailto:support@barracks.io[let us know]!
+
+
+include::docs/update.adoc[]
+
+include::docs/version.adoc[]

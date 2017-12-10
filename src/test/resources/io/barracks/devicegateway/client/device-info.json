@@ -1,0 +1,11 @@
+{
+  "id": "deviceInfoId",
+  "userId": "deviceInfoUserId",
+  "unitId": "deviceInfoUnitId",
+  "versionId": "deviceInfoVersionId",
+  "receptionDate": "2016-08-02T20:35+0000",
+  "segmentId": "deviceInfoSegmentId",
+  "additionalProperties": {
+    "aProperty": "aValue"
+  }
+}

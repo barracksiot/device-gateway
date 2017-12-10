@@ -1,0 +1,25 @@
+{
+  "unitId": "ABC123ZZXX",
+  "packages": [
+    {
+      "reference": "io.barracks.firmware",
+      "version": "0.0.1"
+    },
+    {
+      "reference": "io.barracks.oldApplication",
+      "version": "0.0.1"
+    },
+    {
+      "reference": "io.barracks.bootloader",
+      "version": "0.0.1"
+    }
+  ],
+  "customClientData": {
+    "country": "CAN",
+    "battery": {
+      "health": "good",
+      "charging": false,
+      "level": 0.95
+    }
+  }
+}

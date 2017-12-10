@@ -1,0 +1,30 @@
+
+== Versions
+
+=== Resolve available versions
+A 'POST' request resolves the available versions.
+
+==== Request
+
+include::{snippets}/version/resolve/request-fields.adoc[]
+
+include::{snippets}/version/resolve/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/version/resolve/http-response.adoc[]
+
+include::{snippets}/version/resolve/response-fields.adoc[]
+
+=== Download version
+A 'GET' request downloads the version desired.
+
+include::{snippets}/version/download/path-parameters.adoc[]
+
+==== Request
+
+include::{snippets}/version/download/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/version/download/http-response.adoc[]

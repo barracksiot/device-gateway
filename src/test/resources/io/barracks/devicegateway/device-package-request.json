@@ -1,0 +1,15 @@
+{
+  "unitId": "OhOhOh",
+  "userId": "user",
+  "customClientData": {
+    "boolean": true,
+    "number": 3.14159265358979323846,
+    "string": "deadbeef"
+  },
+  "packages": [
+    {
+      "reference": "abc.def",
+      "version": "0.0.1"
+    }
+  ]
+}

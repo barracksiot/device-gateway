@@ -1,0 +1,7 @@
+{
+  "packageId" : "123456789",
+  "additionalProperties" : {
+    "anInteger" : 3,
+    "coucou" : [ 3, 2, 3 ]
+  }
+}
